@@ -35,24 +35,55 @@ The work spans topics from **neuro‑symbolic program induction** and **symbolic
 
 ## Repository Structure
 ```
-System2-Reasoning-AI/
+System2-Reasoning-AI
+│   .gitignore
+│   LICENSE
+│   README.md
 │
-├── NeuroSymbolic/
-│   └── neuro_symbolic_reasoning.ipynb
-├── symbolic_regression/
-│   └── symbolic_regression.ipynb
-├── inference_time_scaling/
+├── graph_rag
+│   └── graph_rag.ipynb
+│
+├── inference_time_scaling
 │   └── inference_time_scaling.ipynb
-├── rl_post_training/
+│
+├── neuro_symbolic_reasoning
+│   │   neuro_symbolic_reasoning.ipynb
+│   │   prompt_example.txt
+│   │
+│   ├── dataH5Files
+│   │   └── (dataset files)
+│   │
+│   └── utils
+│       ├── clevr_executor.py
+│       ├── logger.py
+│       ├── preprocess.py
+│       ├── preprocess_questions.py
+│       ├── programs.py
+│       ├── utils.py
+│       └── __init__.py
+│
+├── rl_post_training
 │   └── rl_post_training.ipynb
-├── vision_llm_agent/
-│   ├── vision_llm_agent.ipynb
-│   └── agent_data/
-│       ├── data.csv
-│       └── images/
-│           └── [100 PNG files]
-└── graph_rag/
-    └── graph_rag.ipynb
+│
+├── symbolic_regression
+│   ├── dataset.csv
+│   └── symbolic_regression.ipynb
+│
+└── vision_llm_agent
+    │   vision_llm_agent.ipynb
+    │
+    └── agent_data
+        │   data.csv
+        │
+        └── images
+            ├── 1018.png
+            ├── 10461.png
+            ├── 10546.png
+            ├── 10916.png
+            ├── 11286.png
+            ├── ...
+            └── 9588.png
+
 ```
 
 Each folder contains an independent Jupyter notebook and (where applicable) the supporting data included in your upload.
