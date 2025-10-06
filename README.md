@@ -1,1 +1,1 @@
-# system2-reasoning-ai
+# System2-Reasoning-AI
