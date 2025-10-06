@@ -1,16 +1,16 @@
-# 🧠 System 2 Reasoning AI
+# System 2 Reasoning AI
 **Experiments on deliberate, interpretable reasoning across neuro-symbolic models, symbolic regression, inference-time scaling, LLM agents, RL post-training in LLMs, and graph-based retrieval.**
 
 ---
 
-## 🧩 Overview
+## Overview
 This repository gathers six advanced projects exploring how modern AI systems can perform **System 2–style reasoning** — deliberate, structured, and interpretable decision‑making that combines neural and symbolic approaches. Each notebook represents a distinct yet complementary direction toward **explainable, compositional, and multi‑step reasoning**.
 
 The work spans topics from **neuro‑symbolic program induction** and **symbolic regression** to **inference‑time reasoning optimization**, **reinforcement learning post‑training for LLMs**, **vision‑based LLM agents**, and **GraphRAG‑style retrieval**.
 
 ---
 
-## 📚 Contents
+## Contents
 
 | # | Project | Path | Description |
 |---|--------|------|-------------|
@@ -23,7 +23,7 @@ The work spans topics from **neuro‑symbolic program induction** and **symbolic
 
 ---
 
-## 🎯 Core Themes
+## Core Themes
 - **System 2 Reasoning:** deliberate, multi‑step problem solving  
 - **Hybrid Neuro‑Symbolic Learning:** combining neural inference with symbolic structure  
 - **Reasoning‑Time Optimization:** inference‑time scaling, beam search, and ToT/MCTS exploration  
@@ -33,11 +33,11 @@ The work spans topics from **neuro‑symbolic program induction** and **symbolic
 
 ---
 
-## ⚙️ Repository Structure
+## Repository Structure
 ```
-system2-reasoning-ai/
+System2-Reasoning-AI/
 │
-├── neuro_symbolic_reasoning/
+├── NeuroSymbolic/
 │   └── neuro_symbolic_reasoning.ipynb
 ├── symbolic_regression/
 │   └── symbolic_regression.ipynb
@@ -59,7 +59,7 @@ Each folder contains an independent Jupyter notebook and (where applicable) the 
 
 ---
 
-## 🧰 Environment Setup
+## Environment Setup
 > These notebooks target Python 3.10+. Install only what you need for the notebook you plan to run.
 
 ```bash
@@ -71,7 +71,7 @@ pip install torch transformers accelerate datasets tqdm numpy matplotlib pandas 
 
 ---
 
-## 📊 Selected Observations
+## Selected Observations
 - **Vision LLM Agent:** In the provided ablations, the best deep‑agent configuration (Agent 1 + Agent 3) outperformed zero‑shot and classic pipelines on the 100‑image set.  
 - **Inference‑Time Scaling:** Search‑based and verification‑based strategies (e.g., Best‑of‑N, ToT/MCTS) showed higher accuracy than plain CoT at additional compute cost.  
 - **RL Post‑Training for LLMs:** GRPO with structured rewards improved format compliance and answer correctness relative to SFT‑only baselines.  
@@ -81,21 +81,11 @@ pip install torch transformers accelerate datasets tqdm numpy matplotlib pandas 
 
 ---
 
-## 🧠 Motivation
+## Motivation
 System 1 reasoning in LLMs is fast but often shallow. This project explores **System 2 reasoning** — deliberate, symbolic, and interpretable — by experimenting with architectures and training strategies that encourage models to reason, plan, and reflect.
 
 ---
 
-## 🪄 How to Mention This Work
+## How to Mention This Work
 If you reference this repository in your CV or portfolio:
 > *“Developed the `system2-reasoning-ai` repository — a collection of experiments integrating neuro‑symbolic learning, inference‑time scaling, reinforcement learning post‑training in LLMs, LLM agents, and graph‑based retrieval for advanced reasoning.”*
-
----
-
-## 🏷️ Suggested GitHub Topics
-`system2-reasoning`  `neurosymbolic-ai`  `symbolic-regression`  `inference-time-scaling`  `llm-agents`  `reinforcement-learning`  `graph-rag`  `explainable-ai`
-
----
-
-## 📜 License
-Released for **educational and research purposes**. Please credit the author if you reuse substantial portions of code or results.
