@@ -1,4 +1,4 @@
-# 🧠 System 2 Reasoning AI
+# System 2 Reasoning AI
 **Experiments on deliberate, interpretable reasoning across neuro-symbolic models, symbolic regression, inference-time scaling, LLM agents, RL post-training in LLMs, and graph-based retrieval.**
 
 ---
