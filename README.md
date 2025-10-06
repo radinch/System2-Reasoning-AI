@@ -1,16 +1,16 @@
-# System 2 Reasoning AI
+# 🧠 System 2 Reasoning AI
 **Experiments on deliberate, interpretable reasoning across neuro-symbolic models, symbolic regression, inference-time scaling, LLM agents, RL post-training in LLMs, and graph-based retrieval.**
 
 ---
 
-## Overview
+## 🧩 Overview
 This repository gathers six advanced projects exploring how modern AI systems can perform **System 2–style reasoning** — deliberate, structured, and interpretable decision‑making that combines neural and symbolic approaches. Each notebook represents a distinct yet complementary direction toward **explainable, compositional, and multi‑step reasoning**.
 
 The work spans topics from **neuro‑symbolic program induction** and **symbolic regression** to **inference‑time reasoning optimization**, **reinforcement learning post‑training for LLMs**, **vision‑based LLM agents**, and **GraphRAG‑style retrieval**.
 
 ---
 
-## Contents
+## 📚 Contents
 
 | # | Project | Path | Description |
 |---|--------|------|-------------|
@@ -23,7 +23,7 @@ The work spans topics from **neuro‑symbolic program induction** and **symbolic
 
 ---
 
-## Core Themes
+## 🎯 Core Themes
 - **System 2 Reasoning:** deliberate, multi‑step problem solving  
 - **Hybrid Neuro‑Symbolic Learning:** combining neural inference with symbolic structure  
 - **Reasoning‑Time Optimization:** inference‑time scaling, beam search, and ToT/MCTS exploration  
@@ -33,7 +33,7 @@ The work spans topics from **neuro‑symbolic program induction** and **symbolic
 
 ---
 
-## Repository Structure
+## ⚙️ Repository Structure
 ```
 System2-Reasoning-AI
 │   .gitignore
@@ -102,7 +102,7 @@ pip install torch transformers accelerate datasets tqdm numpy matplotlib pandas 
 
 ---
 
-## Selected Observations
+## 📊 Selected Observations
 - **Vision LLM Agent:** In the provided ablations, the best deep‑agent configuration (Agent 1 + Agent 3) outperformed zero‑shot and classic pipelines on the 100‑image set.  
 - **Inference‑Time Scaling:** Search‑based and verification‑based strategies (e.g., Best‑of‑N, ToT/MCTS) showed higher accuracy than plain CoT at additional compute cost.  
 - **RL Post‑Training for LLMs:** GRPO with structured rewards improved format compliance and answer correctness relative to SFT‑only baselines.  
@@ -117,6 +117,15 @@ System 1 reasoning in LLMs is fast but often shallow. This project explores **S
 
 ---
 
-## How to Mention This Work
-If you reference this repository in your CV or portfolio:
-> *“Developed the `system2-reasoning-ai` repository — a collection of experiments integrating neuro‑symbolic learning, inference‑time scaling, reinforcement learning post‑training in LLMs, LLM agents, and graph‑based retrieval for advanced reasoning.”*
+## Citation
+If you use this repository in your research, please cite it as follows:
+
+```bibtex
+@misc{System2-Reasoning-AI,
+  author       = {[Radin Cheraghi/SUT]},
+  title        = {Experiments on System 2 reasoning},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/radinch/System2-Reasoning-AI.git}}
+}
